@@ -1,0 +1,60 @@
+MTD COMPETATIVE PROGRAMMING TRAINING
+
+DAY 1 THURSDAY 06-03-2025
+
+steps to create new repo in git
+-CREATE NEW REOSITORY
+-GIVE THE REPO NAME
+-DESCRIPTION
+-ADD READFILE
+-CREATE REPO
+
+ KEYBOARD SHORTCUTS
+TO SELECT THE WHOLE LINE - CTRL SHIFT HOME
+TO MAKE IT UPPER CASE - CTRL SHIFT U
+TO MAJE IT SMALL - CTRL U 
+SINGLE - PLACE THE CURSER
+DOUBLE SLICK - SELECT THE WORD
+THREE CLICKS - SELECT THE WHOLE LINE 
+TO MAVE THE WHOLE WORD BACKWORD CTRL AND ARROWS
+TO CLEAR COMPLETE WORD CTRL PLUS BACKSPACE
+
+cd for changing directory
+$ gitclone <URL>
+// TO DOWNLOAD A REPO
+
+IMPORT GIT COMMANDS
+
+git status 
+
+git clone https://github.com/Chandan24n/mtd_c_py
+//EXAMPLE TO DOWNLOAD THE REPO 
+
+git pull origin main
+//command to download the updted repo from server to local machine
+
+//to make our computer recognise git acc, we must run these two commands 
+$ git config --global user.name "Chandan24n" 
+$ git config --global user.email "chandanyadavn07@gmail.com"
+
+steps to creatw a new PAT in github
+Login to githubright top corner Click on your profile 
+scroll down and click settings
+next windows, scroll down, on ,eft bottom corner, click developer settingsnext window, on topleft, click personalaccess token, click again on token classic 
+(now you may be asked to enter the password)
+next add the note for new PAT we are creating
+select expiery -> No expuiration
+Select on top check box named repo now, copy pat and send it to your gmail for your reference
+
+by doing so, we can perform Read-Write operation on our reomote without having Autenticate everytime
+
+Commands required to upload files from local repo to remote:
+git add .
+// git will mark all the files tat need to be updated
+
+$git commit-m "notes file of the training is added"
+//git crrates a object that will include all the files to be uploadedand also it is secured(encription)
+
+git push origin main
+//the object now is sent to the server ( the reomote repo is upated)
+
