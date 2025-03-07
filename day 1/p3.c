@@ -1,3 +1,5 @@
+// program
+
 #include<stdio.h>
 
 int main();
@@ -10,7 +12,8 @@ int main();
 
     printf("%d %d %d %d \n", sizeof(num1), sizeof(num2), sizeof(num3), sizeof(d), sizof(f));
 
-    printf("%d %d %d %d", sizeof(int), sizeof(long int), )
+    printf("%d %d %d %d", sizeof(int), sizeof(long int), sizeof(long long int), sizeof(double), sizeof(float));
+    
 
     return(0);
 }
